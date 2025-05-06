@@ -1,95 +1,103 @@
-# Guia de Vibe Coding para Windsurf/Cursor
+# 🌊 Guia de Vibe Coding para Windsurf/Cursor
+
 =====================================
 
-Neste guia, reunimos dicas práticas para maximizar as melhores práticas e resultados.
+Neste guia, reunimos dicas práticas para maximizar as melhores práticas e resultados. 🚀
 
-## Como usar este guia
+## 🧭 Como usar este guia
 
-Insira este documento em uma pasta com um nome sugestivo, tipo: project-guidelines e configure o Cursor ou Windsurf para entender isso como um documento contexto do seu projeto.
+📁 Insira este documento em uma pasta com um nome sugestivo, tipo: project-guidelines e configure o Cursor ou Windsurf para entender isso como um documento contexto do seu projeto.
 
-### 1. Começando com Vibe Coding
+## 1. 🎬 Começando com Vibe Coding
 
-*   Se nunca programou antes, você pode dar um passo atrás e começar usando ferramentas como Replit ou Lovable para prototipagem visual rápida.
-*   Se já tem experiência com programação, prefira ferramentas como Windsurf, Cursor ou Claude Code.
-*   Antes de começar a programar, avalie o projeto e crie um plano detalhado e documente esse plano em um arquivo Markdown dentro do projeto (preferencialmente na pasta docs).
-*   Trabalhe seção por seção, marcando o progresso conforme avança.
+	•	🧒 Se nunca programou antes, você pode dar um passo atrás e começar usando ferramentas como Replit ou Lovable para prototipagem visual rápida.
+	•	👩‍💻 Se já tem experiência com programação, prefira ferramentas como Windsurf, Cursor ou Claude Code.
+	•	📝 Antes de começar a programar, avalie o projeto e crie um plano detalhado e documente esse plano em um arquivo Markdown dentro do projeto (preferencialmente na pasta docs).
+	•	✅ Trabalhe seção por seção, marcando o progresso conforme avança.
 
-## 2. Ferramentas e Estratégias
+⸻
 
-#### Controle de Versão
+## 🛠️ 2. Ferramentas e Estratégias
 
-*   Use Git religiosamente.
-*   Antes de uma nova feature, faça um commit limpo para facilitar reverts.
-*   Em caso de problemas, precisaremo usar o git reset --hard e recomece em um estado limpo. Me consulte sempre antes de fazer esse comando.
+🔀 Controle de Versão
+	•	🧙‍♂️ Use Git religiosamente.
+	•	🧼 Antes de uma nova feature, faça um commit limpo para facilitar reverts.
+	•	🚨 Em caso de problemas, pode ser necessário usar git reset --hard e recomeçar em um estado limpo. Me consulte antes de usar esse comando!
 
-## 3. Testes e Qualidade
+⸻
 
-#### Escreva Testes
+## 🧪 3. Testes e Qualidade
 
-*   Crie testes de alto nível (integração), simulando ações de usuários reais, não apenas unit tests.
-*   Valide cada funcionalidade antes de prosseguir para a próxima.
+🧩 Escreva Testes
+	•	🔎 Crie testes de alto nível (integração), simulando ações de usuários reais – não apenas unitários.
+	•	✅ Valide cada funcionalidade antes de prosseguir para a próxima.
 
-#### Monitorando
+🧠 Monitorando
+	•	⚠️ Se você começar a gerar códigos inconsistentes, faremos uma pausa para reavaliar.
+	•	🔄 Evite múltiplas tentativas no mesmo código defeituoso: resetaremos e tentaremos novamente.
 
-*   Se você começar a gerar códigos inconsistentes, vou precisar de interromper e reavaliar o contexto.
-*   Evite múltiplas tentativas no mesmo código defeituoso: iremos resetar e tentar novamente.
+⸻
 
-## 4. Dicas Avançadas
+## 🚀 4. Dicas Avançadas
 
-#### Gestão de Documentação
+📚 Gestão de Documentação
+	•	⬇️ Baixe e armazene localmente a documentação de APIs que pretende usar.
+	•	📖 Consulte esses arquivos antes de tentar implementar algo.
 
-*   Vou Baixar e armazenar localmente a documentação de APIs que pretendo usar.
-*   Consulte esses arquivos antes de tentar implementar algo.
+🐛 Corrigindo Bugs
+	•	📋 Cole diretamente as mensagens de erro.
+	•	🧠 Para bugs complexos, pense em várias hipóteses antes de propor correção.
+	•	🔧 Sempre aplique correções em um código base limpo.
 
-#### Corrigindo Bugs
+🔍 Revisão de Código
+	•	👥 Sempre abra PRs com no mínimo 2 revisores.
+	•	✍️ Documente alterações com descrições claras.
 
-*   Colarei diretamente as mensagens de erro.
-*   Para bugs complexos, pense em várias hipóteses antes de propor uma correção.
-*   Sempre aplique correções em um código base limpo.
+💬 Mensagens de Commit
+	•	📌 Adote Conventional Commits para mensagens.
 
-#### Revisão de Código
+🔁 CI/CD
+	•	⚙️ Configure CI com GitHub Actions, GitLab CI ou similar.
+	•	🧼 Inclua linting e testes automatizados na pipeline.
 
-*   Sempre abra PRs com no mínimo 2 revisores.
-*   Documente alterações com descrições claras.
+⸻
 
-#### Mensagens de Commit
+## ⚙️ 5. Otimização e Aprendizado
 
-*   Adote Conventional Commits para mensagens de commit.
+🔧 Refatoração Contínua
+	•	♻️ Refatore após implementar e testar.
+	•	📦 Mantenha arquivos pequenos e modulares.
+	•	🧠 Modularidade ajuda humanos… e máquinas também.
 
-#### CI/CD
+⸻
 
-*   Configure integração contínua usando GitHub Actions, GitLab CI ou similar.
-*   Inclua linting e testes automatizados na pipeline de CI.
+## 🗂️ 6. Docs, Docstrings e Type Hinting
+	•	📄 Crie arquivos de documentação explicando o que cada arquivo faz.
+	•	💬 Use docstrings claros e explicativos para métodos.
+	•	🧾 Use type hints para melhorar a legibilidade.
 
-## 5. Otimização e Aprendizado
+⸻
 
-#### Refatoração Contínua
+## 🧹 7. Linting
+	•	🛠️ Use ferramentas de linting para manter o estilo e detectar erros.
 
-*   Refatore após implementar e testar.
-*   Mantenha arquivos pequenos e modulares.
-*   Modularidade facilita tanto o entendimento humano quanto o seu.
+⸻
 
-## 6. Docs, Docstrings e type hinting
+## 📊 8. Logging
 
-*   Crie arquivos de documentação para explicar o que cada arquivo faz.
-*   Use docstrings claros e explicativas para explicar o que cada método faz.
-*   Use type hints para melhorar a legibilidade do código.
+	•	📝 Adicione logs úteis no código.
+	•	🔍 Use logs para depuração e monitoramento.
 
-## 7. Linting
+⸻
 
-*   Use ferramentas de linting para identificar e corrigir erros de sintaxe e estilo.
+## 🧑‍💻 9. Estilo de Programação
 
-## 8. Logging
+	•	🧱 Use programação orientada a objetos com classes.
+	•	🧬 Ou programação procedural com funções pequenas e focadas.
 
-*   Use ferramentas de logging para adicionar logs ao código.
-*   Use logs para depuração e monitoramento.
+⸻
 
-## 9. Estilo de programação
+## 🧪 10. Prototipação
 
-*   Use um estilo de programação orientado a objeto, criando classes.
-*   Use um estilo de programação procedural, criando funções que fazem uma coisa de cada vez.
-
-## 10. Prototipação
-
-*   Os arquivos que for gerando de prototipagem, devem ser armazenados em uma pasta chamada "prototipagem", nunca no root principal do projeto.
-*   O código gerado, aí sim, deve ser armazenado no src ou na pasta recomendada pelo user.
+	•	📁 Armazene arquivos de prototipagem em uma pasta prototipagem.
+	•	📂 O código final deve ir para src ou na pasta recomendada.
