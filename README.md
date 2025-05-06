@@ -37,6 +37,12 @@ Se preferir, apenas faça o fork para editar e criar a sua própria versão de g
 
 ⸻
 
+## Referência
+
+Tutorial e manifesto criado a partir das melhores práticas divulgadas pela YCombinator [neste vídeo super legal](https://www.youtube.com/watch?v=BJjsfNO5JTo)
+
+⸻
+
 ✨ Vibe é código limpo + impacto real
 
 Na Aignosi, o código precisa performar no mundo real, onde a IA ajuda a manter correias transportadoras rodando, economiza energia e salva tempo dos engenheiros. O chão de fábrica não perdoa – e nós também não perdoamos gambiarras disfarçadas de inovação.
