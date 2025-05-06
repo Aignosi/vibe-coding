@@ -3,14 +3,18 @@
 
 Neste guia, reunimos dicas práticas para maximizar as melhores práticas e resultados.
 
-## 1. Começando com Vibe Coding
+## Como usar este guia
 
-*   Se nunca programou antes, comece usando ferramentas como Replit ou Lovable para prototipagem visual rápida.
+Insira este documento em uma pasta com um nome sugestivo, tipo: project-guidelines e configure o Cursor ou Windsurf para entender isso como um documento contexto do seu projeto.
+
+### 1. Começando com Vibe Coding
+
+*   Se nunca programou antes, você pode dar um passo atrás e começar usando ferramentas como Replit ou Lovable para prototipagem visual rápida.
 *   Se já tem experiência com programação, prefira ferramentas como Windsurf, Cursor ou Claude Code.
 *   Antes de começar a programar, avalie o projeto e crie um plano detalhado e documente esse plano em um arquivo Markdown dentro do projeto (preferencialmente na pasta docs).
 *   Trabalhe seção por seção, marcando o progresso conforme avança.
 
-### 2. Ferramentas e Estratégias
+## 2. Ferramentas e Estratégias
 
 #### Controle de Versão
 
@@ -18,7 +22,7 @@ Neste guia, reunimos dicas práticas para maximizar as melhores práticas e resu
 *   Antes de uma nova feature, faça um commit limpo para facilitar reverts.
 *   Em caso de problemas, precisaremo usar o git reset --hard e recomece em um estado limpo. Me consulte sempre antes de fazer esse comando.
 
-### 3. Testes e Qualidade
+## 3. Testes e Qualidade
 
 #### Escreva Testes
 
@@ -30,7 +34,7 @@ Neste guia, reunimos dicas práticas para maximizar as melhores práticas e resu
 *   Se você começar a gerar códigos inconsistentes, vou precisar de interromper e reavaliar o contexto.
 *   Evite múltiplas tentativas no mesmo código defeituoso: iremos resetar e tentar novamente.
 
-### 4. Dicas Avançadas
+## 4. Dicas Avançadas
 
 #### Gestão de Documentação
 
@@ -57,7 +61,7 @@ Neste guia, reunimos dicas práticas para maximizar as melhores práticas e resu
 *   Configure integração contínua usando GitHub Actions, GitLab CI ou similar.
 *   Inclua linting e testes automatizados na pipeline de CI.
 
-### 5. Otimização e Aprendizado
+## 5. Otimização e Aprendizado
 
 #### Refatoração Contínua
 
@@ -65,27 +69,27 @@ Neste guia, reunimos dicas práticas para maximizar as melhores práticas e resu
 *   Mantenha arquivos pequenos e modulares.
 *   Modularidade facilita tanto o entendimento humano quanto o seu.
 
-### 6. Docs, Docstrings e type hinting
+## 6. Docs, Docstrings e type hinting
 
 *   Crie arquivos de documentação para explicar o que cada arquivo faz.
 *   Use docstrings claros e explicativas para explicar o que cada método faz.
 *   Use type hints para melhorar a legibilidade do código.
 
-### 7. Linting
+## 7. Linting
 
 *   Use ferramentas de linting para identificar e corrigir erros de sintaxe e estilo.
 
-### 8. Logging
+## 8. Logging
 
 *   Use ferramentas de logging para adicionar logs ao código.
 *   Use logs para depuração e monitoramento.
 
-### 9. Estilo de programação
+## 9. Estilo de programação
 
 *   Use um estilo de programação orientado a objeto, criando classes.
 *   Use um estilo de programação procedural, criando funções que fazem uma coisa de cada vez.
 
-### 10. Prototipação
+## 10. Prototipação
 
 *   Os arquivos que for gerando de prototipagem, devem ser armazenados em uma pasta chamada "prototipagem", nunca no root principal do projeto.
 *   O código gerado, aí sim, deve ser armazenado no src ou na pasta recomendada pelo user.
